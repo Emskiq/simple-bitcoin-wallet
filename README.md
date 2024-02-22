@@ -27,7 +27,7 @@ In the main directory of the project:
 ```bash
 cargo run
 ```
-This will build the rust program as long as all the dependencies.
+This will build the rust program as well as all the dependencies.
 
 #### Run the front end
 
@@ -35,7 +35,7 @@ In the `frontend` directory of the project run:
 ```bash
 npm install # or pnpm install or yarn install
 ```
-This will install the frontend website, after that you need to run it:
+This will _build/install_ the frontend, after that you need to run it:
 ```bash
 npm start
 ```
